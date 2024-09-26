@@ -1,0 +1,32 @@
+h1 {
+    color: brown
+}
+
+body {
+    background-image: url('https://i.ytimg.com/vi/wyNdlt0vcEI/maxresdefault_live.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.grid-container {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border: 1cap solid rgb(215, 99, 3);
+
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 7px 7px 0;
+
+}
+
+.rightimg {
+    float: right;
+    margin: 100px 0 110px 10px;
+
+}
